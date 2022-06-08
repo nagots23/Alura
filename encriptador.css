@@ -1,7 +1,9 @@
 h1, h2{
     color: black;
-    text-align: center;
+    text-align: center; 
 }
+
+
 body {
     background-color: rgb(220, 237, 244);
     display: block;
@@ -32,21 +34,13 @@ main {
     float: left;
 }
 
-.msg.box{
-    background-color: white;
+.msg{
+    display:flex;
+}
+
+img{
     position: absolute;
-    right: 100%;
-    text-align: justify;
-    padding: 10px;
-    resize: none;
-    left: 1000px;
-    border-radius: 32px;
-    float: right;
-    font: black 100px;
-    box-sizing: 100px;
-    margin-bottom: 70px;
-    font-size: medium;
-    align-content: center;
+
 }
 
 .encriptar-texto {
