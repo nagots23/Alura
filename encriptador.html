@@ -18,29 +18,32 @@
     </div>  
   <main class="main">
      
-    <img src="vector.png">
+    <img src="vector.png" id="vector">
+    <br>
     <h1>Encriptador de texto</h1>
     <h2>Solo minúsculas y sin acentos</h2>
      <div class="caja"></div>
      <form action="">
-     
-        <section class="form-box">
+    
+    <section class="form-box">
                 <input class="entrada-texto" name="input-texto" rows="10" cols="40" id="input-texto">
                 
-        </section>
+     </section>
 
     
-        <section class="msg.box">
+    <section class="msg-box">
+
                 <li>
-                <textarea class="desencriptar" name="textarea" rows="10" cols="30" id="msg"></textarea>
+               
+                <textarea class="text-input-salida"" name="textarea" rows="10" cols="30" id="msg"></textarea>
                 </li>
                 <br>
                 <li>
-                <input class="encriptar-texto" type="button" value="Encriptar texto" id="encriptar-texto">
-                <input class="desencriptar-texto" type="button" value="Desencriptar texto" id="desencriptar-texto">
-               
+                <input class="encriptar-texto" type="button" value="Encriptar texto"  id="boton-encriptar-texto">
+                <input class="desencriptar-texto" type="button" value="Desencriptar texto" id="boton-desencriptar-texto">
+                <input class="copiar" type="button" value="copiar" id="copiar-texto">
                 </li>
-        </section>
+    </section>
     
     </form>
           
