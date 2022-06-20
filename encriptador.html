@@ -29,18 +29,16 @@
                 <input class="entrada-texto" name="input-texto" rows="10" cols="40" id="input-texto">
                 
      </section>
-
-    
     <section class="msg-box">
-                <textarea class="text-input-salida"" name="textarea" rows="10" cols="30" id="msg"></textarea>
+               
+                <textarea class="text-input-salida" name="textarea" rows="10" cols="30" id="msg"></textarea>
                 <br>
-                 <button class="encriptar-texto" type="button" value="Encriptar texto"  id="boton-encriptar-texto">Encriptar texto</button>
+                <button class="encriptar-texto" type="button" value="Encriptar texto"  id="boton-encriptar-texto">Encriptar texto</button>
                 <button class="desencriptar-texto" type="button" value="Desencriptar texto" id="boton-desencriptar-texto">Desencriptar texto</button>
-                <button class="copiar" type="button" value="copiar" id="copiar-texto">Copiar</button>
+                <button onclick="copiar();" class="copiar" type="button" value="copiar" id="texto">Copiar</button>
+                
     </section>
-    
-    </form>
-          
+    </form>    
  </main>
 <footer>
     <nav>
@@ -55,3 +53,4 @@
     <script src="encriptador.js"></script>
 </body>
 </html>
+
