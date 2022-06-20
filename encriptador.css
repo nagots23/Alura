@@ -5,7 +5,8 @@ h1, h2{
 
 
 body {
-    background-color: rgb(220, 237, 244);
+    padding: 3em 0;
+    background: linear-gradient(white, cyan, darkblue);
     display: block;
     margin-bottom: 20px;
     cursor: pointer; 
