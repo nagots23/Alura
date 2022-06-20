@@ -20,24 +20,12 @@ function desencriptar(){
 
 var boton2 = document.querySelector("#boton-desencriptar-texto"); boton2.onclick = desencriptar;
 
-function copiar(){
-    var textCopy = document.getElementById("resultado");
-    textCopy.select();
+
+function copiar() {
+    let texto = document.getElementById("msg");
+    texto.select();
+    texto.setSelectionRange(0, 99999);
     document.execCommand("copy");
-    alert("Texto copiado!");
-}
-
-var botonCopiar = document.querySelector("#copiar-texto");
-botonCopy.addEventListener("click",function(event){
-    event.preventDefault();
-    var cajaTexto = document.querySelector("#resultado");
-    var texto = cajaTexto.value;
-    checkTextoUsuario(texto);
-    copiar();
-    limpiarCampo(cajaTexto);      
-    return;
-});
-
 
 
          
